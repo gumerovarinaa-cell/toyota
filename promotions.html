@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Актуальные акции Toyota EA в Санкт-Петербурге. Специальные предложения на обслуживание и сервис Toyota.">
+  <meta property="og:title" content="Актуальные акции | Toyota ">
+  <meta property="og:description" content="Специальные предложения для владельцев Toyota в сервисе Toyota EA.">
+  <title>Актуальные акции | Toyota </title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Google Fonts автоматически подключаются из styles.css -->
+</head>
+<body>
+
+<!-- ════════════════════════════════════════
+     НАВБАР
+════════════════════════════════════════ -->
+<header>
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-logo">
+  <img src="images/toyota-logo.png" alt="Toyota">
+</a>
+
+      <div class="navbar-nav">
+        <a href="index.html#services">Услуги</a>
+        <a href="promotions.html">Акции</a>
+        <a href="index.html#booking">Запись</a>
+        <a href="index.html#contacts">Контакты</a>
+      </div>
+
+      <div class="navbar-right">
+        <a href="tel:+78123216181" class="navbar-phone">+7 (812) 321-61-81</a>
+        <a href="index.html#booking" class="navbar-cta">Записаться</a>
+      </div>
+
+      <!-- Кнопка мобильного меню -->
+      <button class="hamburger" id="hamburger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Мобильное меню -->
+  <div class="mobile-nav" id="mobile-nav">
+    <a href="index.html#services" onclick="closeMobileMenu()">Услуги</a>
+    <a href="promotions.html" onclick="closeMobileMenu()">Акции</a>
+    <a href="index.html#booking" onclick="closeMobileMenu()">Запись</a>
+    <a href="index.html#contacts" onclick="closeMobileMenu()">Контакты</a>
+    <div class="mobile-nav-phone">
+      <a href="tel:+78123216181">+7 (812) 321-61-81</a>
+    </div>
+  </div>
+</header>
+
+
+
+<section class="inner-page-hero">
+  <div class="container">
+    <div class="breadcrumbs"><a href="index.html">Главная</a> / <span>Актуальные акции</span></div>
+    <h1>Актуальные акции</h1>   
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════
+     АКЦИИ
+     Чтобы изменить акцию — отредактируйте
+     текст внутри .promo-card
+════════════════════════════════════════ -->
+<section class="section" id="promotions">
+  <div class="container">
+    <div class="section-heading">
+      <div class="red-line"></div>
+    </div>
+
+    <div class="promo-cards">
+
+      <!-- ── Акция 1 ── -->
+      <div class="promo-card">
+        <div class="countdown" id="countdown-1">
+          <div class="countdown-unit">
+            <div class="countdown-num" id="c1-days">07</div>
+            <div class="countdown-label">ДН</div>
+          </div>
+          <span class="countdown-sep">:</span>
+          <div class="countdown-unit">
+            <div class="countdown-num" id="c1-hours">00</div>
+            <div class="countdown-label">ЧАС</div>
+          </div>
+          <span class="countdown-sep">:</span>
+          <div class="countdown-unit">
+            <div class="countdown-num" id="c1-mins">00</div>
+            <div class="countdown-label">МИН</div>
+          </div>
+          <span class="countdown-sep">:</span>
+          <div class="countdown-unit">
+            <div class="countdown-num" id="c1-secs">00</div>
+            <div class="countdown-label">СЕК</div>
+          </div>
+        </div>
+        <h3>Замена масла бесплатно</h3>
+        <p>При покупке расходных материалов на Сервисе. Только оригинальные масла Toyota.</p>
+        <a href="index.html#booking" class="promo-link">Узнать подробнее →</a>
+      </div>
+
+      <!-- ── Акция 2 ── -->
+      <div class="promo-card">
+        <div class="countdown">
+          <div class="countdown-unit">
+            <div class="countdown-num" id="c2-days">07</div>
+            <div class="countdown-label">ДН</div>
+          </div>
+          <span class="countdown-sep">:</span>
+          <div class="countdown-unit">
+            <div class="countdown-num" id="c2-hours">00</div>
+            <div class="countdown-label">ЧАС</div>
+          </div>
+          <span class="countdown-sep">:</span>
+          <div class="countdown-unit">
+            <div class="countdown-num" id="c2-mins">00</div>
+            <div class="countdown-label">МИН</div>
+          </div>
+          <span class="countdown-sep">:</span>
+          <div class="countdown-unit">
+            <div class="countdown-num" id="c2-secs">00</div>
+            <div class="countdown-label">СЕК</div>
+          </div>
+        </div>
+        <h3>Сезонные работы</h3>
+        <p>Шиномонтаж + хранение | Профилактика кондиционера. Специальное предложение весны.</p>
+        <a href="index.html#booking" class="promo-link">Узнать подробнее →</a>
+      </div>
+
+      <!-- ── Акция 3 ── -->
+      <div class="promo-card">
+        <div class="countdown">
+          <div class="countdown-unit">
+            <div class="countdown-num" id="c3-days">07</div>
+            <div class="countdown-label">ДН</div>
+          </div>
+          <span class="countdown-sep">:</span>
+          <div class="countdown-unit">
+            <div class="countdown-num" id="c3-hours">00</div>
+            <div class="countdown-label">ЧАС</div>
+          </div>
+          <span class="countdown-sep">:</span>
+          <div class="countdown-unit">
+            <div class="countdown-num" id="c3-mins">00</div>
+            <div class="countdown-label">МИН</div>
+          </div>
+          <span class="countdown-sep">:</span>
+          <div class="countdown-unit">
+            <div class="countdown-num" id="c3-secs">00</div>
+            <div class="countdown-label">СЕК</div>
+          </div>
+        </div>
+        <h3>Бесплатный осмотр</h3>
+        <p>Автомобиля по 14 параметрам при первом визите. Только для новых клиентов.</p>
+        <a href="index.html#booking" class="promo-link">Узнать подробнее →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      <div class="footer-logo">TOYOTA</div>
+      <div class="footer-tagline">Официальный монобрендовый сервис Toyota<br>Санкт-Петербург</div>
+    </div>
+
+    <div class="footer-links">
+      <a href="index.html#services">Услуги</a>
+      <a href="promotions.html">Акции</a>
+      <a href="index.html#booking">Запись</a>
+      <a href="index.html#contacts">Контакты</a>
+    </div>
+
+    <div class="footer-contact">
+      <div class="footer-phone"><a href="tel:+78123216181">+7 (812) 321-61-81</a></div>
+      <div class="footer-hours">Ежедневно 9:00 – 21:00</div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Toyota. Все права защищены.</p>
+    <p>Санкт-Петербург, ул. Руставели, д. 31</p>
+  </div>
+</footer>
+
+
+<!-- ════════════════════════════════════════
+     JAVASCRIPT
+════════════════════════════════════════ -->
+<script>
+const hamburger = document.getElementById('hamburger');
+const mobileNav = document.getElementById('mobile-nav');
+
+hamburger.addEventListener('click', () => {
+  mobileNav.classList.toggle('open');
+});
+
+function closeMobileMenu() {
+  mobileNav.classList.remove('open');
+}
+
+function createCountdown(targetDate, dayId, hourId, minId, secId) {
+  function update() {
+    const now = new Date().getTime();
+    const diff = targetDate - now;
+
+    if (diff <= 0) {
+      document.getElementById(dayId).textContent = '00';
+      document.getElementById(hourId).textContent = '00';
+      document.getElementById(minId).textContent = '00';
+      document.getElementById(secId).textContent = '00';
+      return;
+    }
+
+    const days  = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+    const mins  = Math.floor((diff / (1000 * 60)) % 60);
+    const secs  = Math.floor((diff / 1000) % 60);
+
+    document.getElementById(dayId).textContent  = String(days).padStart(2, '0');
+    document.getElementById(hourId).textContent = String(hours).padStart(2, '0');
+    document.getElementById(minId).textContent  = String(mins).padStart(2, '0');
+    document.getElementById(secId).textContent  = String(secs).padStart(2, '0');
+  }
+
+  update();
+  setInterval(update, 1000);
+}
+
+const promo1End = new Date(Date.now() + 7 * 24 * 60 * 60 * 1000);
+const promo2End = new Date(Date.now() + 7 * 24 * 60 * 60 * 1000);
+const promo3End = new Date(Date.now() + 7 * 24 * 60 * 60 * 1000);
+
+createCountdown(promo1End, 'c1-days', 'c1-hours', 'c1-mins', 'c1-secs');
+createCountdown(promo2End, 'c2-days', 'c2-hours', 'c2-mins', 'c2-secs');
+createCountdown(promo3End, 'c3-days', 'c3-hours', 'c3-mins', 'c3-secs');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.style.opacity = '1';
+      entry.target.style.transform = 'translateY(0)';
+    }
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.promo-card').forEach(el => {
+  el.style.opacity = '0';
+  el.style.transform = 'translateY(20px)';
+  el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+  observer.observe(el);
+});
+</script>
+
+</body>
+</html>
